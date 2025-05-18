@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YourFashion</title>
+
+    <!--=== CSS ===-->
+    <link rel="stylesheet" href="style.css">
+
+    <!--=== BOXICONS ===-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'/>
+
+    <!--==== FONTS AWESOME ====-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <!--==== SCROLL REVEAL CSS ====-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+    <!--==== HEADER ====-->
+    <header  data-aos='fade-down' data-aos-duration="2000">
+        <div class="logo"><img src="./images/logo.png" alt=""></div>
+    
+        <input type="checkbox" id="check" />
+        <label for="check" class="icon">
+            <i class="bx bx-menu" id="menu-icon"></i>
+            <i class="bx bx-x" id="close-icon"></i>
+        </label>
+    
+        <nav class="navbar">
+            <a href="#" class="nav-item links" style="--i: 1" >HOME</a>
+            <a href="#" class="nav-item links" style="--i: 2" >CATALOGUE</a>
+            <a href="#" class="nav-item links" style="--i: 3" >PRODUCTS</a>
+            <a class="nav-item" style="--i: 4"><button class="cart">CART</button></a>
+        </nav>
+    </header>
+
+    <!--==== HERO ====-->
+    <div class="container" style="padding-top: 20px;">
+        <div class="content bgMain">
+        <!-- Title Section -->
+        <div class="title" data-aos='zoom-in'  data-aos-duration="2000">
+            <div class="headings">
+            <h1 class="bgLets">LETS</h1>
+            <h1>EXPLORE</h1>
+            <h1 class="bgUni">UNIQUE</h1>
+            <h1>CLOTHES.</h1>
+            </div>
+            <p class="subtitle">Live for Influential and Innovative fashion!</p>
+            <a href="/products">
+            <button class="shop-btn" style="margin-bottom: 10px; border-radius: 10px;">Shop Now</button>
+            </a>
+        </div>
+
+        <!-- Image Section -->
+        <div class="hero-img-container">
+            <img src="./images/heromain.png" alt="shopping background" class="hero-img" data-aos="fade-left"  data-aos-duration="2000"/>
+            <img src="./images/star.png" alt="star" class="star star2"/>
+            <img src="./images/star.png" alt="star" class="star star1"/>
+            <img src="./images/star.png" alt="star" class="star star3"/>
+            <img src="./images/star.png" alt="star" class="star star4"  />
+        </div>
+        </div>
+    </div>
+
+    <!--==== BRANDS SLIDER ====-->
+    <div class="slider" data-reverse="true" style="--width: 200px; --height: 100px; --quantity: 12;">
+        <div class="list">
+        <div class="item" style="--position: 1;"><img src="images/hm.png" alt="" class="img img1" /></div>
+        <div class="item" style="--position: 2;"><img src="images/obey.png" alt="" class="img img2" /></div>
+        <div class="item" style="--position: 3;"><img src="images/shopify.png" alt="" class="img img3" /></div>
+        <div class="item" style="--position: 4;"><img src="images/lacoste.png" alt="" class="img img4" /></div>
+        <div class="item" style="--position: 5;"><img src="images/levis.png" alt="" class="img img5" /></div>
+        <div class="item" style="--position: 6;"><img src="images/amazon.png" alt="" class="img img6" /></div>
+
+        <div class="item" style="--position: 7;"><img src="images/hm.png" alt="" class="img img1" /></div>
+        <div class="item" style="--position: 8;"><img src="images/obey.png" alt="" class="img img2" /></div>
+        <div class="item" style="--position: 9;"><img src="images/shopify.png" alt="" class="img img3" /></div>
+        <div class="item" style="--position: 10;"><img src="images/lacoste.png" alt="" class="img img4" /></div>
+        <div class="item" style="--position: 11;"><img src="images/levis.png" alt="" class="img img5" /></div>
+        <div class="item" style="--position: 12;"><img src="images/amazon.png" alt="" class="img img6" /></div>
+        </div>
+    </div>
+
+    <!--==== ARRIVALS ====-->
+    <div class="newArrivals" style="margin-bottom: 20px;" >
+        <div class="arrivals-title">
+        <img src="images/arrivalsheading.png" alt="new arrivals" class="arrivals-heading" data-aos="fade-right" data-aos-duration="3000"/>
+        </div>
+        <div class="mainPro">
+        <!-- 1 -->
+        <a href="#" data-aos='fade-up' data-aos-duration="3000">
+            <div>
+            <img src="./images/arrivalimg1.jpg" alt="shopping website image" class="arrival-img"/>
+            <div class="arrival-info">
+                <div>
+                <h4 class="fontHoodie">Hoodies & Sweatshirt</h4>
+                <p class="arrival-sub">Explore Now!</p>
+                </div>
+                <div class="arrow">→</div>
+            </div>
+            </div>
+        </a>
+
+        <!-- 2 -->
+        <a href="#" data-aos='fade-down' data-aos-duration="3000">
+            <div>
+            <img src="./images/arrivalimg2.png" alt="shopping website image" class="arrival-img"/>
+            <div class="arrival-info">
+                <div>
+                <h4 class="fontHoodie">Coats & Parkas</h4>
+                <p class="arrival-sub">Explore Now!</p>
+                </div>
+                <div class="arrow">→</div>
+            </div>
+            </div>
+        </a>
+
+        <!-- 3 -->
+        <a href="#" data-aos='fade-up' data-aos-duration="2000">
+            <div>
+            <img src="./images/arrivalimg3.png" alt="shopping website image" class="arrival-img"/>
+            <div class="arrival-info">
+                <div>
+                <h4 class="fontHoodie">Tees & T-Shirt</h4>
+                <p class="arrival-sub">Explore Now!</p>
+                </div>
+                <div class="arrow">→</div>
+            </div>
+            </div>
+        </a>
+
+        </div>
+    </div>
+
+    <!--==== FOOTER ====-->
+    <footer class="footer">
+    <div class="footer-container">
+
+      <!-- Logo And Social Media -->
+      <div class="footer-section" data-aos="fade-right" data-aos-duration="2000">
+        <h3 class="footer-logo">FASHION</h3>
+        <p class="footer-description">
+          Complete your style with awesome clothes from us.
+        </p>
+        <div class="footer-social">
+          <i class="fa-brands fa-facebook-f media-icon"></i>
+          <i class="fab fa-instagram media-icon" ></i>
+          <i class="fab fa-twitter media-icon"></i>
+          <i class="fab fa-linkedin-in media-icon" ></i>
+        </div>
+      </div>
+
+      <div class="myLinks">
+        <!-- Company Links -->
+        <div class="footer-links" data-aos="fade-right" data-aos-duration="2000">
+            <h4>Company</h4>
+            <ul>
+            <li>About</li>
+            <li>Contact us</li>
+            <li>Support</li>
+            <li>Careers</li>
+            </ul>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="footer-links" data-aos="fade-right" data-aos-duration="2000">
+            <h4>Quick Link</h4>
+            <ul>
+            <li>Share Location</li>
+            <li>Orders Tracking</li>
+            <li>Size Guide</li>
+            <li>FAQs</li>
+            </ul>
+        </div>
+
+        <!-- Legal Links -->
+        <div class="footer-links" data-aos="fade-right" data-aos-duration="2000">
+            <h4>Legal</h4>
+            <ul>
+            <li>Terms & Conditions</li>
+            <li>Privacy Policy</li>
+            </ul>
+        </div>
+      </div>
+
+    </div>
+    </footer>
+
+    <!--=============== SCROLL REVEAL JS ===============-->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
